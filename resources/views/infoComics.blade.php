@@ -11,24 +11,69 @@
     <div class="container_small">
         <div id="info">
     
+            {{-- inserisco staticamente solo un singolo comics seguendo la traccia dell'esercizio --}}
+
             <div class="title">
-                Lorem, ipsum dolor sit adipisicing 
+                {{$comics[0]["title"]}}
             </div>
             <div class="check-wrapper">
                 <div class="price-status">
-                    <div class="price">aaa</div>
-                    <div class="status">avaiable</div>
+                    <div class="price">
+                        <span class="opacity-05">U.S. Price:</span>
+                        {{$comics[0]["price"]}}
+                    </div>
+                    <div class="status opacity-05">avaiable</div>
 
                 </div>
                 <div class="check">
-                    chekc
+                    Check Availability
                 </div>
             </div>
             <div class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reiciendis natus obcaecati magni. Dolor voluptatum harum pariatur, possimus ipsum culpa provident veniam ea perferendis distinctio non reprehenderit molestiae adipisci sunt!
+                {{$comics[0]["description"]}}
             </div>
         </div>
+
+
         
+    </div>
+    <div id="specs">
+
+        <div class="container_small">
+
+            <div class="tables">
+
+               <table class="my_table">
+
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            Talent
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Art by:</td>
+                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptas fugit, illo minus labore dolore </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Written by:
+                        </td>
+                        <td>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quia repellendus ea minus 
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            </div>
+
+        </div>
+
+
     </div>
     
 </main>
