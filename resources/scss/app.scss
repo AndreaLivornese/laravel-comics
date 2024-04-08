@@ -191,7 +191,22 @@ footer{
 #img-wrapper{
     background-color: $primaryColor;
     height: 80px;
+    
+    .container_small{
+        height: 100%;
+        position: relative;
+    }
 
+    .img-box{
+        position: absolute;
+        bottom:20px;
+        left:0;
+        height: 250px;
+
+        img{
+            height: 100%;
+        }
+    }
 }
 
 

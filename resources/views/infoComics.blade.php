@@ -5,7 +5,13 @@
 <main>
 
     <div id="img-wrapper">
-        <img src="" alt="">
+        <div class="container_small">
+            <div class="img-box">
+                <img src="{{$comics[0]["thumb"]}}" alt="">
+    
+            </div>
+
+        </div>
     </div>
     
     <div class="container_small">
