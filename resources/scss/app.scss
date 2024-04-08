@@ -16,6 +16,11 @@ header
 
 }
 
+.my_container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 nav .my_row{
     display:flex;
     justify-content: space-between;
@@ -58,6 +63,95 @@ nav .my_row{
   
     overflow: hidden;
 }
+
+// fine jumbo
+
+
+
+// grid
+
+#grid{
+    background-color: #1C1C1C;
+
+    a{
+        text-decoration: none;
+    }
+}
+
+  main .my_container{
+    position: relative;
+    padding: 54px 0 20px;
+  }
+
+  .centered{
+    text-align: center;
+  }
+  
+  .my_btn{
+    padding:12px 60px;
+
+    border:none;
+
+    background-color: $primaryColor;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor:pointer;
+  }
+  
+  .my_row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap:28px;
+  
+    margin-bottom: 50px;
+  }
+
+  .banner{
+    position: absolute;
+    left:50px;
+    top:-34px;
+  
+    padding:18px 32px;
+  
+    background-color: $primaryColor;
+  
+    color:white;
+    font-weight: bold;
+    font-size:22px;
+  }
+
+
+//card
+
+.my_card{
+    width: calc(185px);
+
+
+    .my_card-img{
+        max-width: 185px;
+        height: 185px;
+        margin-bottom: 20px;
+        overflow: hidden;
+
+        img{
+            width:100%;
+        }
+    }
+
+    .comics-title{
+        font-size:14px;
+        text-transform: uppercase;
+        color:white;
+        font-weight: bold;
+    }
+}
+
+// card
+
+// fine grid
 
 
 
