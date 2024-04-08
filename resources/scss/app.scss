@@ -1,1 +1,55 @@
 @import "~bootstrap/scss/bootstrap";
+
+
+@import 'parcial/_mixins';
+@import 'parcial/_variables';
+
+
+header
+.container{
+    @include container;
+
+}
+
+nav .my_row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+}
+
+.links{
+    display:flex;
+    padding: 0;
+    list-style-type:none;
+    
+    li{
+        padding:12px 16px; 
+        height: 100%;
+
+        
+
+        a{
+            text-decoration: none;
+            color:#4b535a;
+            font-weight: 500;
+
+            &:hover{
+                color:$primaryColor;
+                
+            }
+        }
+    }
+
+}
+
+// fine header
+
+// jumbo
+
+#jumbotron-img{
+    height: 400px;
+  
+    overflow: hidden;
+}
