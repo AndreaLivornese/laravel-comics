@@ -175,3 +175,55 @@ footer{
 
 }
 
+
+// fine layout
+
+
+
+
+// info Comics
+
+#img-wrapper{
+    background-color: $primaryColor;
+    height: 80px;
+
+}
+
+
+.container_small{
+    width: min(calc(100% - 20px), 1000px);
+    margin:0 auto;
+
+    .title{
+        font-size: 1.8em;
+        font-weight: bold;
+        color:#003F5E;
+        text-transform: uppercase;
+    }
+
+    .check-wrapper{
+        display: flex;
+        background-color: #55BA59;
+
+        color:white;
+
+        .price-status{
+            padding:20px 28px;
+
+            display: flex;
+            justify-content: space-between;
+            flex-grow: 1;
+        }
+
+        .check{
+            
+            padding:20px 28px;
+            width: 300px;
+        }
+
+        .opacity-05{
+            opacity: .5;
+        }
+    }
+
+}
