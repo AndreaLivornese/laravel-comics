@@ -13,8 +13,8 @@
           
             <div class="my_row">
               
-                @foreach ($comics as $comicsItem)
-                <a href="/info-comics">
+                @foreach ($comics as $index=>$comicsItem)
+                <a href="/info-comics/{{$index}}">
                     <div class="my_card">
                         <div class="my_card-img">
                             <img src="{{$comicsItem['thumb']}}" alt="immagine del fumetto">

@@ -7,7 +7,7 @@
     <div id="img-wrapper">
         <div class="container_small">
             <div class="img-box">
-                <img src="{{$comics[0]["thumb"]}}" alt="">
+                <img src="{{$comic["thumb"]}}" alt="">
     
             </div>
 
@@ -20,13 +20,13 @@
             {{-- inserisco staticamente solo un singolo comics seguendo la traccia dell'esercizio --}}
 
             <div class="title">
-                {{$comics[0]["title"]}}
+                {{$comic["title"]}}
             </div>
             <div class="check-wrapper">
                 <div class="price-status">
                     <div class="price">
                         <span class="opacity-05">U.S. Price:</span>
-                        {{$comics[0]["price"]}}
+                        {{$comic["price"]}}
                     </div>
                     <div class="status opacity-05">avaiable</div>
 
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="text">
-                {{$comics[0]["description"]}}
+                {{$comic["description"]}}
             </div>
         </div>
 
@@ -88,14 +88,14 @@
                     <tbody>
                         <tr>
                             <td>Series:</td>
-                            <td>{{$comics[0]["series"]}}</td>
+                            <td>{{$comic["series"]}}</td>
                         </tr>
                         <tr>
                             <td>
                                 U.S. Price:
                             </td>
                             <td>
-                                {{$comics[0]["price"]}}
+                                {{$comic["price"]}}
                             </td>
                         </tr>
                         <tr>
@@ -103,7 +103,7 @@
                                On Sale Date:
                             </td>
                             <td>
-                                {{$comics[0]["sale_date"]}} 
+                                {{$comic["sale_date"]}} 
                             </td>
                         </tr>
                     </tbody>

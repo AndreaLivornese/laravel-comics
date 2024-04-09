@@ -19,13 +19,14 @@ Route::get('/', function () {
     return view('home', compact("comics"));
 });
 
-Route::get('/info-comics', function () {
+Route::get('/info-comics/{index}', function ($index) {
 
     // dd(config("db"));
 
    $comics = config("db");
 
+   $comic = $comics[$index];
 
 
-    return view('infoComics', compact("comics"));
+    return view('infoComics', compact("comic"));
 });
